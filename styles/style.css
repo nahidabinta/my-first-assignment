@@ -2,7 +2,7 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* header & banner styles */
 .header{
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
@@ -41,6 +41,7 @@
     text-align: right;
     margin-left: 350px;
 }
+
 /* main section style */
 
 .topic{
@@ -69,7 +70,7 @@
     margin-bottom: 5px;
 }
 
-/* new section style */
+/* second main section style */
 
 .my-plan{
     text-align: center;
@@ -99,3 +100,38 @@
     font-size: 25px;
     color: #737272;
 }
+
+/* More info section style(for bonus point) */
+
+.more-info{
+    text-align: center;
+    background: rgb(245, 245, 245);
+    padding: 130px 200px;
+}
+
+.more-info-title{
+    font-weight: 700px;
+    margin-bottom: 100px;
+}
+
+.more-info-content{
+    border: 2px solid #737272;
+    padding: 20px 30px;
+}
+
+.more-info-item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.more-info-sub-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more-info-description{
+    font-size: 14px;
+}
+
+/* image & gradiant section style */
+
