@@ -106,7 +106,7 @@
 .more-info{
     text-align: center;
     background: rgb(245, 245, 245);
-    padding: 130px 200px;
+    padding: 90px 200px;
 }
 
 .more-info-title{
@@ -134,4 +134,84 @@
 }
 
 /* image & gradiant section style */
+
+.image{
+    text-align: center;
+    background: rgb(245, 245, 245);
+    padding: 40px 200px;
+}
+
+.img-container{
+    background-image: url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.img-heading{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    right: 60%;
+    text-align: left;
+    font-weight: 1000px;
+    font-size: 35px;
+}
+
+.button{
+    background: #FFFFFF;
+    color: #FD6E0A;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    text-align: left;
+    font-weight: 600px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5%;
+    padding: 5px 10px;
+}
+
+/* last part styles */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: white;
+    padding: 150px 200px;
+}
+.contact .title{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.contact input[type="email"]{
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 5%;
+    width: 100%;
+    padding: 16px 25px;
+}
+
+.btn-sub{
+    background: #FFFFFF;
+    color: #FD6E0A;
+    font-weight: 600px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5%;
+    padding: 5px 10px;
+}
+
+.description{
+   padding-right: 400px;
+   margin-bottom: 15px;
+}
+
+.contact a{
+    text-decoration: none;
+}
 
